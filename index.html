@@ -1,33 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CV - Aleksandr Papyrin</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+  <title>CV - Aleksandr Papyrin</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-<img src="images/avatar.jpg" alt="Aleksandr Papyrin photo" width="150" class="avatar" >
-  <h1>Aleksandr Papyrin</h1>
 
-  <div class="contact-info">
-    <p>Email: aleks.suensos@gmail.com</p>
-    <p>Phone: +34 613-905-195</p>
-    <p>GitHub: <a href="https://github.com/Alekspain">github.com/Alekspain</a></p>
+<header>
+  <div class="container">
+    <img src="assets/images/avatar.jpg" alt="Aleksandr photo" width="150" class="avatar" />
+    <h1>Aleksandr Papyrin</h1>
+    <nav>
+      <div class="contact-info">
+        <p><a href="mailto:aleks.suensos@gmail.com">Email</a></p>
+        <p>Phone: +34 613-905-195</p>
+        <p><a href="https://github.com/Alekspain" target="_blank">github.com/Alekspain</a></p>
+        <p>@alekspain</p>
+      </div>
+    </nav>
   </div>
+</header>
 
-  <section>
+<main>
+  <section class="container">
     <h2>Summary</h2>
-    <p>Highly punctual and detail-oriented aspiring developer...</p>
+    <p>Highly punctual and detail-oriented aspiring software developer...</p>
   </section>
 
-  <section>
+  <section class="skills container">
     <h2>Skills</h2>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript (basic)</li>
+      <li>Visual Studio Code</li>
+      <li>Git</li>
+      <li>GitHub</li>
     </ul>
   </section>
+
+  <section class="code-examples container">
+    <h2>Code example</h2>
+    <p>This code does not execute properly. Try to figure out why.</p>
+    <pre><code>
+function multiply(a, b) {
+  return a * b;
+}
+    </code></pre>
+  </section>
+
+  <section class="projects container">
+    <h2>Projects</h2>
+    <ul>
+      <li>Create a CV</li>
+    </ul>
+  </section>
+
+  <section class="education container">
+    <h2>Education</h2>
+    <ul>
+      <li>University DSTU “Commercial Construction” 2012–2016</li>
+      <li>University DSTU “Linguistics” 2014–2016</li>
+    </ul>
+  </section>
+
+  <section class="languages container">
+    <h2>Languages</h2>
+    <ul>
+      <li>Russian — native</li>
+      <li>English — B1–B2</li>
+      <li>Spanish — B2</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>© 2025 Aleksandr Papyrin</p>
+    <p>
+      <a href="https://github.com/Alekspain" target="_blank" rel="noopener noreferrer">GitHub автора</a>
+    </p>
+    <p>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg?raw=true"
+             alt="Rolling Scopes School logo"
+             class="course-logo" width="100" />
+      </a>
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>
