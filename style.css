@@ -14,16 +14,22 @@ body {
     margin: auto;
 }
 
-/* ==== Headings ==== */
-h1, h2, h3 {
-    margin-bottom: 10px;
-    color: #333;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2em;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #251d1d;
+  padding-bottom: 5px;
+
 }
 
 h2 {
@@ -31,12 +37,31 @@ h2 {
     font-size: 1.5em;
 }
 
-/* ==== Sections ==== */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 4px 0;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 section {
     margin-bottom: 25px;
 }
 
-/* ==== Lists ==== */
 ul {
     list-style: none;
     padding-left: 0;
@@ -47,21 +72,34 @@ ul li::before {
     color: #007acc;
 }
 
-/* ==== Contact Info ==== */
-.contact-info {
-    margin-bottom: 20px;
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-left: 4px solid #007acc;
+  overflow-x: auto;
 }
 
 .contact-info p {
     margin: 4px 0;
 }
 
-/* ==== Links ==== */
-a {
-    color: #007acc;
-    text-decoration: none;
+footer {
+  background-color: #f9f9f9;
+  color:#333;
+  font-weight: 100;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
 }
 
-a:hover {
-    text-decoration: underline;
+.github-link {
+color:#333;
+font-weight: 100;
+}
+
+.course-logo {
+  width: 80px;
+  vertical-align: middle;
+  margin-top: 10px;
 }
